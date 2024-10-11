@@ -1,0 +1,80 @@
+body {
+    background-color: #f4f0f8;
+}
+
+.header-case{
+    background-color: #e2e2ed;
+}
+.header-case h6 {
+     display: inline-block;
+     margin: 0 0 0 10px;
+ }
+
+#logo {
+    max-width: 150px;
+    height: auto;
+    float: left;
+}
+
+nav {
+    background: #e2e2ed;
+}
+nav a {
+    color: black;
+}
+
+table {
+    font-size: 12px;
+}
+thead {
+    background-color: #e5f6e0;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fce8e9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fbfae9;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 2px;
+    text-align: center;
+}
+
+.links {
+    background: #e5f4f7;
+}
+
+form {
+    background: #e5f4f7;
+}
+form label,form >input,form div{
+    width: 200px;
+    display: block;
+}
+
+footer {
+    background-color: #e2e2ed;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    html{
+        font-size: 20px;
+    }
+    header{
+        background-color: #e2e2ed;
+    }
+    table {
+        font-size: 20px;
+        width: auto;
+        max-width: 70%;
+        min-width: 20%;
+    }
+    td, th {
+        padding: 10px;
+    }
+}
